@@ -3,7 +3,7 @@
 //Twitter : @VahlCode
 //License : MIT License 
 
-export function HOW_LONG(string) {
+export function READ_COUNT(string) {
     let words = string.replace(/(^\s*)|(\s*$)/gi, ""); //I'm excluding spaces at the start and end of the string with regular expression.
     words = words.replace(/[ ]{2,}/gi, " "); //I'm reducing multiple spaces to single spaces using regular expression.
     words = words.replace(/\n /, "\n"); //In case of new line with a start spacing, Im excluding it with regular expression.

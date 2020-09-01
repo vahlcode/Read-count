@@ -1,5 +1,5 @@
 {
-  "name": "howlong",
+  "name": "read_count",
   "version": "1.0.0",
   "description": "Get Medium like estimated read time of a string. Suitable for estimating the read time of a post.",
   "main": "index.js",
@@ -26,5 +26,6 @@
   "bugs": {
     "url": "https://github.com/vahlcode/howlong/issues"
   },
-  "homepage": "https://github.com/vahlcode/howlong#readme"
+  "homepage": "https://github.com/vahlcode/howlong#readme",
+  "publishConfig": { "access": "public", "branches": ["master"] }
 }
