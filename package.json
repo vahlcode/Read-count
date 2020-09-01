@@ -1,0 +1,30 @@
+{
+  "name": "howlong",
+  "version": "1.0.0",
+  "description": "Get Medium like estimated read time of a string. Suitable for estimating the read time of a post.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vahlcode/howlong.git"
+  },
+  "keywords": [
+    "Read",
+    "tim",
+    "Medium",
+    "React",
+    "JavaSCript",
+    "Estimate",
+    "String",
+    "Lenght"
+  ],
+  "author": "Valentine Elum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vahlcode/howlong/issues"
+  },
+  "homepage": "https://github.com/vahlcode/howlong#readme"
+}
