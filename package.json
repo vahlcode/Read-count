@@ -1,6 +1,6 @@
 {
   "name": "read_count",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Get Medium like estimated read time of a string. Suitable for estimating the read time of a post.",
   "type": "module",
   "main": "./src/index.js",
@@ -36,11 +36,5 @@
     "branches": [
       "master"
     ]
-  },
-  "devDependencies": {
-    "@babel/core": "^7.11.5",
-    "babel-loader": "^8.1.0",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
   }
 }
