@@ -1,16 +1,14 @@
 {
   "name": "read_count",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get Medium like estimated read time of a string. Suitable for estimating the read time of a post.",
-  "type": "module",
   "main": "dist/index.js",
   "exports": {
     "./esm": "./src/index.js"
   },
   "module": "./src/index.js",
   "scripts": {
-    "build": "webpack --mode production",
-    "prepublish": "npm run build"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
