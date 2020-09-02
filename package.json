@@ -1,11 +1,11 @@
 {
   "name": "read_count",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get Medium like estimated read time of a string. Suitable for estimating the read time of a post.",
-  "main": "index.js",
-  "type": "module",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "JavaSCript",
     "Estimate",
     "String",
-    "Lenght"
+    "Length"
   ],
   "author": "Valentine Elum",
   "license": "MIT",
@@ -27,5 +27,16 @@
     "url": "https://github.com/vahlcode/howlong/issues"
   },
   "homepage": "https://github.com/vahlcode/howlong#readme",
-  "publishConfig": { "access": "public", "branches": ["master"] }
+  "publishConfig": {
+    "access": "public",
+    "branches": [
+      "master"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.5",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
