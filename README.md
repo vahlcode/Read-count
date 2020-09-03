@@ -1,6 +1,6 @@
 # read_count
 
-Get Medium like estimated read time of a string. Suitable for estimating the read time of a post.
+Easily integrate estimated reading time in your JavaScript apps.
 
 # Quick Start
 
