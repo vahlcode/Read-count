@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vahlcode/howlong.git"
+    "url": "git+https://github.com/vahlcode/Read-count.git"
   },
   "keywords": [
     "Read",
@@ -28,9 +28,9 @@
   "author": "Valentine Elum",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vahlcode/howlong/issues"
+    "url": "https://github.com/vahlcode/Read-count/issues"
   },
-  "homepage": "https://github.com/vahlcode/howlong#readme",
+  "homepage": "https://readcount.vercel.app",
   "publishConfig": {
     "access": "public",
     "branches": [
