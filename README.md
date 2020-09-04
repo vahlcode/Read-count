@@ -6,32 +6,32 @@ Easily integrate estimated reading time in your JavaScript apps.
 
 ## Installation
 
-```
+```shell
 npm i read_count
 ```
 
 ## Usage
 
-**1. Use `read_count`** with ES6 module syntax
+1. Use `read_count` with ES6 import syntax
 
 ```javascript
-import readCount from 'read_count';
+import readCount from 'read_count'
 
-readCount("Lorem ipsum, dolor sit amet consectetur adipisicing elit."); // ⇨ '4 seconds'
+console.log(readCount("Lorem ipsum, dolor sit amet consectetur adipisicing elit.")) // ⇨ '4 seconds'
 ```
 
-**2. Use `read_count`** with CommonJS syntax
+2. Use `read_count` with CommonJS syntax
 
 ```javascript
-let readCount = require('read_count');
+let readCount = require('read_count')
 
-readCount("Lorem ipsum, dolor sit amet consectetur adipisicing elit."); // ⇨ '4 seconds'
+console.log(readCount("Lorem ipsum, dolor sit amet consectetur adipisicing elit.")) // ⇨ '4 seconds'
 ```
 
-# Author
+## Author
 
 [Valentine Elum](https://twitter.com/vahlcode)
 
-# License
+## License
 
 MIT LICENSE
