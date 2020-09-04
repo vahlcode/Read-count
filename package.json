@@ -9,7 +9,8 @@
     "require": "./dist/index.js"
   },
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "publish": "git push --tags"
   },
   "repository": {
     "type": "git",
